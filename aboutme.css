@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #222831;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-section {
+  display: flex;
+  gap: 50px;
+  max-width: 1000px;
+  padding: 50px;
+}
+
+.text-container {
+  flex: 1;
+}
+
+.text-container h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.text-container h1 span {
+  color: #0ea5e9;
+}
+
+.text-container p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #d1d5db;
+}
+
+.read-more {
+  color: #0ea5e9;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.image-container {
+  flex: 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.person {
+  font-size: 60px;
+  animation: bob 2s ease-in-out infinite;
+}
+
+.floating-icons span {
+  position: absolute;
+  font-size: 24px;
+  color: #0ea5e9;
+  animation: float 5s infinite ease-in-out alternate;
+}
+
+.floating-icons img{
+  position: relative;
+  top: 50%;
+  bottom: 50%;
+  left: 10%;
+  max-width: 1000px;
+  height: 400px;
+}
